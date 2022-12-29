@@ -1,11 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: rgb(161, 180, 76);
-    
+    background-color: rgb(161, 180, 76); 
 }
 
-.container{
+#container{
     height: 80vh;
     width: 95vh;
     background: url(img.png) no-repeat;
@@ -14,7 +13,7 @@
     position: relative;
 }
 
-.hour{
+#hour{
     position: absolute;
     height: 121px;
     width: 10px;
@@ -23,9 +22,10 @@
     top: 23%;
     left: 48.4%;
     transform-origin: bottom;
+    opacity: 0.8;
 }
 
-.minute{
+#minute{
     position: absolute;
     height: 148px;
     width: 7px;
@@ -34,9 +34,10 @@
     top: 18%;
     left: 48.6%;
     transform-origin: bottom;
+    opacity: 0.8;
 }
 
-.second{
+#second{
     position: absolute;
     height: 233px;
     width: 6px;
@@ -45,6 +46,8 @@
     top: 2%;
     left: 48.8%;
     transform-origin: bottom;
+    opacity: 0.8;
+
 }
 
 .text{

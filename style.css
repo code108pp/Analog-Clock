@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(161, 180, 76);
+    
+}
+
+.container{
+    height: 80vh;
+    width: 95vh;
+    background: url(img.png) no-repeat;
+    margin: auto;
+    background-size: 100%;
+    position: relative;
+}
+
+.hour{
+    position: absolute;
+    height: 121px;
+    width: 10px;
+    background-color: rgb(1 0 0 / 98%);
+    border-radius: 10px;
+    top: 23%;
+    left: 48.4%;
+    transform-origin: bottom;
+}
+
+.minute{
+    position: absolute;
+    height: 148px;
+    width: 7px;
+    background-color: rgb(1 0 0 / 98%);
+    border-radius: 10px;
+    top: 18%;
+    left: 48.6%;
+    transform-origin: bottom;
+}
+
+.second{
+    position: absolute;
+    height: 233px;
+    width: 6px;
+    background-color: rgb(1 0 0 / 98%);
+    border-radius: 10px;
+    top: 2%;
+    left: 48.8%;
+    transform-origin: bottom;
+}
+
+.text{
+    font-size: 80px;
+    background-color: yellowgreen;
+    font-weight: 50px;
+    font-style: italic;
+    text-align: center;
+}
